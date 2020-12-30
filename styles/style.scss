@@ -1,0 +1,77 @@
+@import "variables";
+@import "landing";
+@import "features";
+@import "order";
+@import "footer";
+@import "header";
+
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  .main-container{
+    &.dark{
+      color: white;
+      a{
+        color:white;
+      }
+    }
+  
+    &.light{
+      color:black;
+      a{
+        color: black;
+      }
+    }
+  }
+
+
+
+  font-family: "Montserrat", sans-serif;
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+  }
+  h2 {
+    font-size: 8rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+  
+  h4 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  
+  li {
+    font-size: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
