@@ -13,7 +13,7 @@ const Order = ({ theme }) => {
 
             <a
                 id="order-button"
-                href="https://www.google.com/search?hl=&site=&q=How+to+stop+making+terrible+decisions"
+                href="https://www.google.com/search?hl=&site=&q=How+to+stop+making+terrible+life+decisions"
                 rel="noopener noreferrer"
                 target="_blank">
                 Order Here

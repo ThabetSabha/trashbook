@@ -30,7 +30,7 @@ const Features = ({ theme }) => {
                         <Image src="/images/feature3.jpg" alt="feature3" width={1200} height={800} />
                         <h3>Modern Design</h3>
                         <p>
-                            Like Eminem man once said:
+                            Like Eminem once said:
                         </p>
                         <p>Same sh*t different toilet.</p>
                     </div>
