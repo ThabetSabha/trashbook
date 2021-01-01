@@ -4,16 +4,17 @@ const Landing = ({ theme }) => {
     return (
         <section className={`home ${theme}`} id="home">
             <div className="showcase">
-                <h2>Trash-book</h2>
+                <h2>TrashBook Pro</h2>
                 <div className="product-image-landing">
-                    <Image src="/images/product1.png" alt="product" width={954} height={484}/>
+                    <Image src="/images/product1.png" alt="product2" height={1129} width={1442} />
                 </div>
                 <div className="info">
-                    <h3>Small but powerful.</h3>
+                    <h3>Expensive</h3>
                     <p>
-                        The new Leica M6 offers 4k at 60fps, Raw Video & Full Frame
-                        Sensor.
+                        Same Trash quality you're used to,
+                        now more overpriced.
                     </p>
+
                 </div>
             </div>
         </section>

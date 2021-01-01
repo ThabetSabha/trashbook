@@ -1,20 +1,26 @@
 footer {
+  
   &.dark{
     background-color: black;
   }
-
+  
   &.light{
     background-color: $bg-color-light-grey;
     hr{
       border-color:rgb(224, 223, 223);
     }
   }
+  
+  
+  
+  
   width: 100%;  
   min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center ;
   padding-top: 2rem;
+  
   
   .footer-container{
     min-width: 30%;
@@ -31,8 +37,9 @@ footer {
       transform: translateY(-2px);
     }
   }
+  
+  
   hr {
-    margin: 0rem 0rem 3rem 0rem;
     border: 0;
     width: 100%;
     border-top: 2px solid rgba(255, 255, 255, 0.24);
@@ -46,5 +53,30 @@ footer {
       text-transform: uppercase;
     }
   }
-
+  
+  
+  .for-more {
+    color: #aa9f9f;
+    font-size: 1.3rem;
+    margin: 3rem 0rem -1rem 0rem;
+    text-align: center;
+  }
+  
+  
+  .credit {
+    color: #aa9f9f;
+    font-size: 1.3rem;
+    margin: 2rem 0rem 4rem 0;
+    text-align: center;
+    
+    a {
+      color: #aa9f9f !important;
+      font-size: 1.3rem;
+      transition: all 0.4s;
+      display: inline-block;
+      
+    }
+  }
+  
+  
 }

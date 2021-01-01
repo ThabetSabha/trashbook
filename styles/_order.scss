@@ -7,9 +7,9 @@
   
   &.light{
     background-color: $bg-color-light;
-      h2 {
-        color: black;
-      } 
+    h2 {
+      color: black;
+    } 
   }
   
   
@@ -18,6 +18,8 @@
   z-index: 0;
   display: flex;
   justify-content: center;
+  
+  
   .img-contianer,
   .circle,
   h2 {
@@ -26,19 +28,28 @@
     left: 50%;
     transform: translate(-50%, -43%);
   }
+  
   .circle {
     z-index: -1;
   }
+  
   h2 {
     top: 25%;
     color:white;
   }
-
+  
+  
   .img-contianer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+    z-index: -1;
+    img {
+      max-height: 55vh !important;
+    }
   }
+  
   
   #order-button{
     background: $accent-color-dark;
@@ -60,7 +71,8 @@
       font-size: 5rem;
       text-align: center;
     }
-
+    
+    
   }
   
   @media (max-aspect-ratio: 77/100) {
@@ -68,5 +80,14 @@
       bottom: 15%;
     }
   }
-
+  
+  @media (min-aspect-ratio: 216/100) {
+    img{
+      min-width: 80% !important;
+      max-width: 80% !important;
+    }
+  }
+  
+  
+  
 }

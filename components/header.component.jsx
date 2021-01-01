@@ -1,4 +1,4 @@
-const Header = ({changeTheme, theme}) => {
+const Header = ({ changeTheme, theme }) => {
     return (
         <div className={`nav-container ${theme}`}>
             <nav>

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Html } from 'next/document';
 import { useEffect, useState } from 'react';
 import Features from '../components/features.component';
 import Footer from '../components/footer.component';
@@ -12,6 +11,8 @@ export default function Home() {
 
   const [theme, setTheme] = useState('');
 
+
+  //Gets the cached theme from localStorage;
   useEffect(() => {
     let cachedTheme = localStorage.getItem("theme");
     if (!cachedTheme) {
@@ -23,16 +24,20 @@ export default function Home() {
   }, [])
 
 
+
+  //Changes the theme and caches it to localStorage;
   const changeTheme = () => {
     let newTheme = theme === 'dark' ? 'light' : 'dark'
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   }
 
+
+
   return (
     <div className={`main-container ${theme}`}>
       <Head>
-        <title>Garbage Reimagined</title>
+        <title>TrashBook</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap"
@@ -47,6 +52,8 @@ export default function Home() {
       <Features theme={theme} />
       <Order theme={theme} />
       <Footer theme={theme} />
+
+
     </div>
   )
 }
