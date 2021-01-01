@@ -41,7 +41,7 @@ const Features = ({ theme }) => {
             </section>
 
             <div className="wave">
-                <Image src="/images/wave.png" alt="wave" height={510} width={1920} />
+                <Image src="/images/wave.png" alt="wave" height={409} width={1440} />
             </div>
 
         </div>

@@ -6,7 +6,7 @@ const Landing = ({ theme }) => {
             <div className="showcase">
                 <h2>TrashBook Pro</h2>
                 <div className="product-image-landing">
-                    <Image src="/images/product1.png" alt="product2" height={1129} width={1442} />
+                    <Image src="/images/product1.png" alt="product2" height={960} width={1200} />
                 </div>
                 <div className="info">
                     <h3>Expensive</h3>
