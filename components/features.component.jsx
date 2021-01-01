@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const Features = ({ theme }) => {
+const Features = () => {
     return (
-        <div className={`features-container ${theme}`}>
+        <div className="features-container">
 
             <section className="features" id="features">
 

@@ -1,7 +1,7 @@
 const Footer = ({ theme }) => {
 
     return (
-        <footer className={`footer ${theme}`}>
+        <footer className="footer">
             <div className="footer-container">
 
 

@@ -1,18 +1,5 @@
 .order {
-  
-  
-  &.dark{
-    background: $bg-color-dark;
-  }
-  
-  &.light{
-    background-color: $bg-color-light;
-    h2 {
-      color: black;
-    } 
-  }
-  
-  
+    
   height: 100vh;
   position: relative;
   z-index: 0;

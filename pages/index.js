@@ -16,7 +16,15 @@ export default function Home() {
   useEffect(() => {
     let cachedTheme = localStorage.getItem("theme");
     if (!cachedTheme) {
-      setTheme('dark');
+
+      //Gets user prefrence
+      const userPrefersLight = globalThis.matchMedia && globalThis.matchMedia('(prefers-color-scheme: light)').matches;
+      if(userPrefersLight){
+        setTheme("light");
+      } else {
+        setTheme("dark")
+      }
+
     }
     else {
       setTheme(cachedTheme);
@@ -47,10 +55,10 @@ export default function Home() {
         <meta name="description" content="landing page for a fake product" />
       </Head>
 
-      <Header theme={theme} changeTheme={changeTheme} />
-      <Landing theme={theme} />
-      <Features theme={theme} />
-      <Order theme={theme} />
+      <Header changeTheme={changeTheme} />
+      <Landing />
+      <Features />
+      <Order />
       <Footer theme={theme} />
 
 

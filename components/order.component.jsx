@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const Order = ({ theme }) => {
+const Order = () => {
     return (
-        <section className={`order ${theme}`} id="order">
+        <section className="order" id="order">
 
             <h2>Available Now!</h2>
 

@@ -1,13 +1,5 @@
 .features-container {
   
-  &.dark{
-    background: #323232;
-  }
-  
-  &.light{
-    background-color: $bg-color-light-grey;
-  }
-  
   position: relative;
   z-index: 0;
   overflow: hidden;

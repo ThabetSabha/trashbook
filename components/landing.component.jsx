@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const Landing = ({ theme }) => {
+const Landing = () => {
     return (
-        <section className={`home ${theme}`} id="home">
+        <section className="home" id="home">
             <div className="showcase">
                 <h2>TrashBook Pro</h2>
                 <div className="product-image-landing">

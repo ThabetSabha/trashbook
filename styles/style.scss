@@ -19,18 +19,90 @@ html {
 
 body {
   
+  
+  //Dark and Light Mode Settings
   .main-container{
-    &.dark{
+    
+    &.dark {
+      
       color: white;
-      a{
+      a {
         color:white;
       }
+      
+      .nav-container {
+        background: black;
+        #logo{
+          &::after {
+            background: $accent-color-dark;
+          }
+        }
+      }  
+      
+      .home {
+        background: $bg-color-dark;
+      }
+      
+      .features-container {
+        background: #323232;
+      }
+      
+      .order {
+        background: $bg-color-dark;
+      }      
+      
+      footer {
+        background-color: black;
+      }
     }
+    
+    
+    
+    
     
     &.light{
       color:black;
       a{
         color: black;
+      }
+      
+      
+      .nav-container {
+        background:$bg-color-light-header;
+        #logo{
+          color: white; 
+          &::after {
+            background: $accent-color-light;
+            mix-blend-mode: unset;
+            z-index: -1;
+          }
+        }
+        .order-button{
+          color: white;
+          font-size: 2rem;
+        }
+      }      
+      
+      .home {
+        background-color: $bg-color-light;
+      }
+      
+      .features-container {
+        background-color: $bg-color-light-grey;
+      }
+      
+      .order {
+        background-color: $bg-color-light;
+        h2 {
+          color: black;
+        } 
+      }      
+      
+      footer {        
+        background-color: $bg-color-light-grey;
+        hr{
+          border-color:rgb(224, 223, 223);
+        }
       }
     }
   }

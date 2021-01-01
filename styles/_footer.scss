@@ -1,19 +1,5 @@
 footer {
   
-  &.dark{
-    background-color: black;
-  }
-  
-  &.light{
-    background-color: $bg-color-light-grey;
-    hr{
-      border-color:rgb(224, 223, 223);
-    }
-  }
-  
-  
-  
-  
   width: 100%;  
   min-height: 20vh;
   display: flex;

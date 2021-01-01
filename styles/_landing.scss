@@ -1,13 +1,5 @@
 .home {
   
-  &.light{
-    background-color: $bg-color-light;
-  }
-  
-  &.dark{
-    background: $bg-color-dark;
-  }
-  
   .showcase {
     display: grid;
     height: 88vh;

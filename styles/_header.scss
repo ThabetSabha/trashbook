@@ -2,35 +2,6 @@
   
   box-shadow:4px 4px 8px 0 rgba(0,0,0,.2);
   
-  
-  &.dark{
-    background: black;
-    #logo{
-      &::after {
-        background: $accent-color-dark;
-      }
-    }
-  }
-  
-  
-  &.light{
-    background:$bg-color-light-header;
-    #logo{
-      color: white; 
-      &::after {
-        background: $accent-color-light;
-        mix-blend-mode: unset;
-        z-index: -1;
-      }
-    }
-    .order-button{
-      color: white;
-      font-size: 2rem;
-    }
-  }
-  
-  
-  
   position: sticky;
   top: 0;
   z-index: 2;

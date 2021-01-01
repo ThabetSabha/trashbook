@@ -1,6 +1,6 @@
-const Header = ({ changeTheme, theme }) => {
+const Header = ({ changeTheme }) => {
     return (
-        <div className={`nav-container ${theme}`}>
+        <div className="nav-container">
             <nav>
                 <h1 id="logo" onClick={changeTheme}>Trash</h1>
                 <ul>
