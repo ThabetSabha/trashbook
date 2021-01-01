@@ -1,7 +1,7 @@
 # TrashBook
     
    
-A landing page for a fake product, created using Next.js and Sass,
+A landing page for a fake product, created using Next.js and Sass,     
 it has a light mode and a dark mode, with the default being the user's default device theme.
 
 Live Demo : https://trashbook.vercel.app/
