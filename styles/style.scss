@@ -22,9 +22,7 @@ body {
   
   //Dark and Light Mode Settings
   .main-container{
-    
     &.dark {
-      
       color: white;
       a {
         color:white;
@@ -53,6 +51,16 @@ body {
       
       footer {
         background-color: black;
+        
+        .for-more {
+          color: #aa9f9f;
+        }
+        .credit {
+          color: #aa9f9f;
+          a {
+            color: #aa9f9f !important;
+          }
+        }
       }
     }
     
@@ -102,6 +110,17 @@ body {
         background-color: $bg-color-light-grey;
         hr{
           border-color:rgb(224, 223, 223);
+        }
+        
+        .for-more {
+          color: #922c25;
+        }
+        .credit {
+          color: #922c25;
+          a {
+            color: #922c25 !important;
+          }
+          
         }
       }
     }
