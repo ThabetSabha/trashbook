@@ -1,13 +1,10 @@
 .nav-container {
-  
-  box-shadow:4px 4px 8px 0 rgba(0,0,0,.2);
-  
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
   position: sticky;
   top: 0;
   z-index: 2;
-  
-  
-  
+
   nav {
     width: 80%;
     margin: auto;
@@ -16,17 +13,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     ul {
       display: flex;
       min-width: 30%;
       list-style: none;
       justify-content: space-between;
       li {
-        margin-left:5rem;
+        margin-left: 5rem;
       }
     }
-    
+
     #logo {
       position: relative;
       cursor: pointer;
@@ -41,19 +38,27 @@
         transform: translate(-10%, -20%);
         mix-blend-mode: screen;
       }
-      
     }
-    
-    
+    .logo-and-icons-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .theme-icons-container {
+      cursor: pointer;
+      font-size: large;
+      margin-left: 5rem;
+      margin-top: 0.5rem;
+      @media screen and (max-width: 500px) {
+        margin-left: 2.5rem;
+      }
+      @media screen and (max-width: 350px) {
+        display: none;
+      }
+    }
     .order-button {
       padding: 1rem 2rem;
       border-radius: 2rem;
       background: $accent-color-dark2;
-    }   
-    
+    }
   }
-  
-  
-  
 }
-

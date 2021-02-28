@@ -1,36 +1,33 @@
 footer {
-  
-  width: 100%;  
+  width: 100%;
   min-height: 20vh;
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   padding-top: 2rem;
-  
-  
-  .footer-container{
+
+  .footer-container {
     min-width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   a {
     transition: all 0.2s ease-in;
-    
+
     &:hover {
       transform: translateY(-2px);
     }
   }
-  
-  
+
   hr {
     border: 0;
     width: 100%;
     border-top: 2px solid rgba(255, 255, 255, 0.24);
   }
-  .social-links{
+  .social-links {
     a {
       text-decoration: none;
       padding: 20px;
@@ -39,27 +36,22 @@ footer {
       text-transform: uppercase;
     }
   }
-  
-  
+
   .for-more {
     font-size: 1.3rem;
     margin: 3rem 0rem -1rem 0rem;
     text-align: center;
   }
-  
-  
+
   .credit {
     font-size: 1.3rem;
     margin: 2rem 0rem 4rem 0;
     text-align: center;
-    
+
     a {
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      
     }
   }
-  
-  
 }
