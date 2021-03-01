@@ -16,7 +16,6 @@ const Features = () => {
             />
             <h3>Powerful</h3>
             <p>Play all your trash games at a glorious 10fps.</p>
-            <p>Because it's Trash-can not Trash-can't.</p>
           </div>
 
           <div className="card">
@@ -28,8 +27,8 @@ const Features = () => {
             />
             <h3>Killer Connectivity</h3>
             <p>
-              With internet speeds reaching up to 500kbps, you can now stream
-              all the trash content you like.
+              With internet speeds reaching up to 500kbps, you can now smoothly
+              stream all the trash content you like.
             </p>
           </div>
 
@@ -41,14 +40,16 @@ const Features = () => {
               height={800}
             />
             <h3>Modern Design</h3>
-            <p>Like Eminem once said:</p>
-            <p>Same sh*t different toilet.</p>
+            <p>
+              An all new trash design, allowing you to take your trash game to
+              the next level.
+            </p>
           </div>
         </div>
       </section>
 
       <div className="wave">
-        <img src="/images/wave.png" alt="wave" height="409px" width="1440px" />
+        <img src="/images/wave.png" alt="wave" />
       </div>
     </div>
   );
